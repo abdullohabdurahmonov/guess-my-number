@@ -106,7 +106,6 @@ h1 {
 .btn:hover {
   background-color: #ccc;
 }
-
 .message {
   margin-bottom: 8rem;
   height: 3rem;
@@ -114,4 +113,32 @@ h1 {
 
 .score {
   margin-bottom: 2rem;
+}
+@media screen and (max-width:630px) {
+ 
+ h1{
+font-size: 2rem;
+ } 
+ .btn{
+  padding: 0.5rem 1rem;
+ }
+.input_number{
+  font-size: 3rem;
+  padding: 1.5rem;
+  width: 15rem;
+}
+.between {
+  font-size: 1rem;
+  padding-top: 20px;
+}
+.message, .label-score ,.score ,.label-highscore{
+  font-size: 1rem;
+  padding-left: 10px;
+}
+.high_score{
+  font-size: 1rem;
+}
+.message{
+  margin-bottom: 2rem;
+}
 }
