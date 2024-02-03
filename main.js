@@ -48,6 +48,6 @@ btnPlayEl.addEventListener("click", () => {
   hideNumEl.style.width = "25%";
   hideNumEl.style.transition = "all 0.5s ease-in";
   inputNumEl.value = "";
-  containerEl.style.backgroundColor = "#ddd";
+  containerEl.style.backgroundColor = "#222";
   displayMessage("Start Guesing..............");
 });
